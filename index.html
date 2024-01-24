@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- manrope font -->
+<link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Manrope:wght@400;700;800&display=swap"rel="stylesheet">
+
+<style>
+    .font-manrope{
+        font-family: "Manrope",sans-serif ;
+    }
+</style>
+
+
+</head>
+<body class="font-manrope">
+    <header>
+        <!-- nav start -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="flex-1">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <h1 class="btn btn-ghost text-4xl">Hockey<span class="text-red-500">'</span>s</h1>
+                </div>
+                <div class="navbar-center hidden pr-80 text-base lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="text-red-600"><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+
+                <div>
+                    <button class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                      </button>
+                    <button class="btn btn-error text-white">Get Ticket</button>
+                </div>
+
+            </div>
+        </nav>
+        <!-- nav end -->
+
+        <!-- slider -->
+        <div class="carousel w-full pt-12 h-[550px]">
+            <div id="slide1" class="carousel-item relative w-full ">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="Images/hockey+world+cup.jpeg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+        </div> 
+          
+          <!-- <div class="text-white -mt-56 w-3/6  rounded-2xl bg-black">
+            <h3 class="">Meet all the heroes from the field</h3>
+            <p class="text-[#FFFFFF99] pr-8">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin.</p>
+        </div> -->
+        <div class="bg-[#FFF] border-t-2 mt-24 border-dotted items-center text-center ">
+            <h2 class="sm:text-4xl text-xl text mt-8">Professional Hockeys Club</h2>
+            <p class="sm:text-[16px] text-[14px] text-[#13131899] mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <!-- Radial progress start -->
+        <div class="grid sm:grid-cols-4 grid-cols-1 border-t-2 mt-8 border-dotted bg-[#FFF] items-center text-center">
+            <!-- first -->
+            <div class="mt-8">
+                <div class="radial-progress rotate-90 text-red-600" style="--value: 80;" role="progressbar"><span class="text-black -rotate-90">87%</span></div>
+    
+                <h2 class="mt-6 text-xl">Prayer Facility</h2>
+                <p class="text-[#13131899] text-16px">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+            </div>
+
+            <!-- second -->
+
+            <div class="mt-8 ">
+                <div class="radial-progress rotate-90 text-red-600" style="--value: 86;" role="progressbar"><span class="text-black -rotate-90">95%</span></div>
+                <h2 class="mt-6 text-xl">Experienced Coach</h2>
+                <p class="text-[#13131899] text-[16px]">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+            </div>
+            <!-- third -->
+            <div class=" mt-8">
+                <div class="radial-progress rotate-90 text-red-600" style="--value: 84;" role="progressbar"><span class="text-black -rotate-90">90%</span></div>
+    
+                <h2 class="mt-6 text-xl">Senior Player</h2>
+                <p class="text-[#13131899] text-[16px]">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+            </div>
+            <!-- four -->
+            <div class="mt-8">
+                <div class="radial-progress rotate-90 text-red-600" style="--value: 75;" role="progressbar"><span class="text-black -rotate-90">80%</span></div>
+    
+                <h2 class="mt-6 text-xl">Training Ground</h2>
+                <p class="text-[#13131899] text-[16px]">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+            </div>
+        </div>
+        <!-- Radial progress end -->
+
+        <div class="bg-[#FFF] border-t-2 mt-24 border-dotted items-center text-center ">
+            <h2 class="sm:text-4xl text-xl text mt-8">Program Sections</h2>
+            <p class="sm:text-[16px] text-[14px] text-[#13131899] mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+
+
+      <div class="flex justify-center mt-12 items-center gap-6 sm:flex-row flex-col ">
+            <div>
+                <div class="card bg-[#13131880] shadow-xl image-full">
+                    <figure><img class="w-[660px]" src="Images/2.png"/></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-[28px] pt-[110px]">Junior Program</h2>
+                      <p class="text-[16px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla. Tortor congue sed et in</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn btn-error">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+    
+            <div class="card bg-[#13131880] shadow-xl image-full">
+                <figure><img class="w-[660px]" src="Images/3.png"/></figure>
+                <div class="card-body">
+                  <h2 class="card-title text-[28px] pt-[115px]">Teenager Program</h2>
+                  <p class="text-[16px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla. Tortor congue sed et in</p>
+                  <div class="card-actions justify-start">
+                    <button class="btn btn-error">Register Now!</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="mt-6 flex flex-col items-center ">
+          <div class="card bg-[#13131880] shadow-xl image-full">
+            <figure><img class="w-[1350px]" src="Images/4.png"/></figure>
+            <div class="card-body">
+              <h2 class="card-title text-[28px] pt-[210px]">Professional Program</h2>
+              <p class="text-[16px] pt-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla. Tortor congue sed et in</p>
+              <div class="card-actions justify-start pt-8">
+                <button class="btn btn-error">Register Now!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="bg-[#FFF] border-t-2 mt-24 border-dotted items-center text-center ">
+          <h2 class="sm:text-4xl text-xl text mt-8">Our New Products</h2>
+          <p class="sm:text-[16px] text-[14px] text-[#13131899] mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+      </div>
+
+      <!-- start -->
+
+      <div class="border-t-2 mt-12 border-dashed">
+         <div class="grid sm:grid-cols-2 grid-cols-1 pt-12 gap-6 ">
+                    <!-- first -->
+
+                      <div class="grid sm:grid-cols-2 grid-cols-1 card  card-side bg-base-100 border mt-1 ">
+                        <figure><img class="p-6" src="Images/5.png"/></figure>
+                        <div class="card-body pr-5">
+      
+                          <div class="flex gap-8">
+
+                              <div class="flex gap-2">
+                                <i class="fa-solid pt-1 fa-star text-[#F99808]"></i>
+                                <p class="text-[16px]">5.0</p>
+                              </div>
+                              <div class="flex gap-2">
+                                <i class="fa-regular pt-1 fa-eye"></i>
+                                <p class="text-[16px]">20</p>
+                              </div>
+                              <div class="flex gap-2">
+                                <i class="fa-regular pt-1 fa-heart"></i>
+                                <p class="text-[16px]">200</p>
+                              </div>
+                          </div>
+              
+                          <h2 class="card-title text-[20px]">World Cup Flags Football</h2>
+                          <p class="text-[16px]">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis.</p>
+
+
+            
+
+
+                          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <h2 class="text-red-600 text-[16px]">Price - $22.00</h2>
+            
+                            <div class="flex gap-1 ">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <g clip-path="url(#clip0_7_227)">
+                                  <path d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_7_227">
+                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <div>
+                                <p class="text-[14px]">Delivery Fee : Free</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    <!-- second -->
+
+                    <div class="grid sm:grid-cols-2 grid-cols-1 card  card-side bg-base-100 border mt-1">
+                      <figure><img class="p-6" src="Images/6.png"/></figure>
+                      <div class="card-body pr-5">
+    
+                        <div class="flex gap-8">
+
+                            <div class="flex gap-2">
+                              <i class="fa-solid pt-1 fa-star text-[#F99808]"></i>
+                              <p class="text-[16px]">5.0</p>
+                            </div>
+                            <div class="flex gap-2">
+                              <i class="fa-regular pt-1 fa-eye"></i>
+                              <p class="text-[16px]">20</p>
+                            </div>
+                            <div class="flex gap-2">
+                              <i class="fa-regular pt-1 fa-heart"></i>
+                              <p class="text-[16px]">200</p>
+                            </div>
+                        </div>
+            
+                        <h2 class="card-title text-[20px]">World Cup Flags Football</h2>
+                        <p class="text-[16px]">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis.</p>
+
+
+          
+
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                          <h2 class="text-red-600 text-[16px]">Price - $22.00</h2>
+          
+                          <div class="flex gap-1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                              <g clip-path="url(#clip0_7_227)">
+                                <path d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_7_227">
+                                  <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <div>
+                              <p class="text-[14px]">Delivery Fee : Free</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                             
+                    <!-- 3rd -->
+
+                    <div class="grid sm:grid-cols-2 grid-cols-1 card  card-side bg-base-100 border mt-1 ">
+                      <figure><img class="p-6" src="Images/7.png"/></figure>
+                      <div class="card-body pr-5">
+    
+                        <div class="flex gap-8">
+
+                            <div class="flex gap-2">
+                              <i class="fa-solid pt-1 fa-star text-[#F99808]"></i>
+                              <p class="text-[16px]">5.0</p>
+                            </div>
+                            <div class="flex gap-2">
+                              <i class="fa-regular pt-1 fa-eye"></i>
+                              <p class="text-[16px]">20</p>
+                            </div>
+                            <div class="flex gap-2">
+                              <i class="fa-regular pt-1 fa-heart"></i>
+                              <p class="text-[16px]">200</p>
+                            </div>
+                        </div>
+            
+                        <h2 class="card-title text-[20px]">Cap For Hockeys</h2>
+                        <p class="text-[16px]">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis.</p>
+
+
+          
+
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                          <h2 class="text-red-600 text-[16px]">Price - $22.00</h2>
+          
+                          <div class="flex gap-1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                              <g clip-path="url(#clip0_7_227)">
+                                <path d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_7_227">
+                                  <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <div>
+                              <p class="text-[14px]">Delivery Fee : Free</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                
+          
+                    <!-- 4th -->
+
+                    <div class="grid sm:grid-cols-2 grid-cols-1 card  card-side bg-base-100 border mt-1 ">
+                      <figure><img class="p-6" src="Images/8.png"/></figure>
+                      <div class="card-body pr-5">
+    
+                        <div class="flex gap-8">
+
+                            <div class="flex gap-2">
+                              <i class="fa-solid pt-1 fa-star text-[#F99808]"></i>
+                              <p class="text-[16px]">5.0</p>
+                            </div>
+                            <div class="flex gap-2">
+                              <i class="fa-regular pt-1 fa-eye"></i>
+                              <p class="text-[16px]">20</p>
+                            </div>
+                            <div class="flex gap-2">
+                              <i class="fa-regular pt-1 fa-heart"></i>
+                              <p class="text-[16px]">200</p>
+                            </div>
+                        </div>
+            
+                        <h2 class="card-title text-[20px]">World Cup Flags Football</h2>
+                        <p class="text-[16px]">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis.</p>
+
+
+          
+
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                          <h2 class="text-red-600 text-[16px]">Price - $22.00</h2>
+          
+                          <div class="flex gap-1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                              <g clip-path="url(#clip0_7_227)">
+                                <path d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_7_227">
+                                  <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <div>
+                              <p class="text-[14px]">Delivery Fee : Free</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+          
+                    <!-- 5th -->
+                    
+                    <div class="grid sm:grid-cols-2 grid-cols-1 card  card-side bg-base-100 border mt-1 ">
+                      <figure><img class="p-6" src="Images/9.png"/></figure>
+                      <div class="card-body pr-5">
+    
+                        <div class="flex gap-8">
+
+                            <div class="flex gap-2">
+                              <i class="fa-solid pt-1 fa-star text-[#F99808]"></i>
+                              <p class="text-[16px]">5.0</p>
+                            </div>
+                            <div class="flex gap-2">
+                              <i class="fa-regular pt-1 fa-eye"></i>
+                              <p class="text-[16px]">20</p>
+                            </div>
+                            <div class="flex gap-2">
+                              <i class="fa-regular pt-1 fa-heart"></i>
+                              <p class="text-[16px]">200</p>
+                            </div>
+                        </div>
+            
+                        <h2 class="card-title text-[20px]">World Cup Flags Football</h2>
+                        <p class="text-[16px]">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis.</p>
+
+
+          
+
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                          <h2 class="text-red-600 text-[16px]">Price - $22.00</h2>
+          
+                          <div class="flex gap-1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                              <g clip-path="url(#clip0_7_227)">
+                                <path d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_7_227">
+                                  <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <div>
+                              <p class="text-[14px]">Delivery Fee : Free</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+          
+                    <!-- 6th -->
+
+                    <div class="grid sm:grid-cols-2 grid-cols-1 card  card-side bg-base-100 border mt-1 ">
+                      <figure><img class="p-6" src="Images/10.png"/></figure>
+                      <div class="card-body pr-5">
+    
+                        <div class="flex gap-8">
+
+                            <div class="flex gap-2">
+                              <i class="fa-solid pt-1 fa-star text-[#F99808]"></i>
+                              <p class="text-[16px]">5.0</p>
+                            </div>
+                            <div class="flex gap-2">
+                              <i class="fa-regular pt-1 fa-eye"></i>
+                              <p class="text-[16px]">20</p>
+                            </div>
+                            <div class="flex gap-2">
+                              <i class="fa-regular pt-1 fa-heart"></i>
+                              <p class="text-[16px]">200</p>
+                            </div>
+                        </div>
+            
+                        <h2 class="card-title text-[20px]">World Cup Flags Football</h2>
+                        <p class="text-[16px]">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis.</p>
+
+
+          
+
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                          <h2 class="text-red-600 text-[16px]">Price - $22.00</h2>
+          
+                          <div class="flex gap-1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                              <g clip-path="url(#clip0_7_227)">
+                                <path d="M4 18.9998C4 19.5302 4.21071 20.0389 4.58579 20.414C4.96086 20.789 5.46957 20.9998 6 20.9998C6.53043 20.9998 7.03914 20.789 7.41421 20.414C7.78929 20.0389 8 19.5302 8 18.9998C8 18.4693 7.78929 17.9606 7.41421 17.5855C7.03914 17.2105 6.53043 16.9998 6 16.9998C5.46957 16.9998 4.96086 17.2105 4.58579 17.5855C4.21071 17.9606 4 18.4693 4 18.9998Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 16.9998H6V2.99976H4" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 4.99976L20 5.99976L19.284 11.0108M14 12.9998H6" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21.121 20.1208C21.5406 19.7013 21.8265 19.1667 21.9423 18.5847C22.0581 18.0028 21.9988 17.3995 21.7717 16.8513C21.5447 16.3031 21.1602 15.8345 20.6668 15.5048C20.1734 15.1751 19.5934 14.9991 19 14.9991C18.4066 14.9991 17.8266 15.1751 17.3332 15.5048C16.8398 15.8345 16.4553 16.3031 16.2283 16.8513C16.0012 17.3995 15.9419 18.0028 16.0577 18.5847C16.1735 19.1667 16.4594 19.7013 16.879 20.1208C17.297 20.5398 18.004 21.1658 19 21.9998C20.051 21.1098 20.759 20.4838 21.121 20.1208Z" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19 17.9998V18.0098" stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_7_227">
+                                  <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)"/>
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <div>
+                              <p class="text-[14px]">Delivery Fee : Free</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+         </div>
+      </div>
+
+      <!-- start -->
+      
+
+      <div class="bg-[#FFF] border-t-2 mt-24 border-dotted items-center text-center ">
+        <h2 class="sm:text-4xl text-xl text mt-8">Clients Question</h2>
+        <p class="sm:text-[16px] text-[14px] text-[#13131899] mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+    </div>
+    <div class="border-t-2 border-dashed mt-12">
+      <div class="border  rounded-2xl p-2 mt-12 grid sm:grid-cols-2 grid-cols-1">
+         <figure> <img class="p-6" src="Images/11.png" alt=""></figure>
+        <div class="">
+          <!-- 1st -->
+          <div class="collapse collapse-plus pt-4 pb-1">
+            <input type="radio" name="my-accordion-3" checked="checked" /> 
+            <div class="collapse-title text-xl font-medium">Our Equipment</div>
+            <div class="collapse-content"> 
+                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+              </div>
+          </div>
+          
+          <!-- 2nd -->
+          <div class="border-t-2 border-b">
+          <div class="collapse collapse-plus pt-1 pb-1">
+            <input type="radio" name="my-accordion-3" checked="checked" /> 
+            <div class="collapse-title text-xl font-medium">Hockey Training
+            </div>
+            <div class="collapse-content"> 
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+            </div>
+          </div>
+          </div>
+
+          <!-- 3rd -->
+          <div class="border-t-2 border-b">           
+          <div class="collapse collapse-plus pt-1 pb-1">
+            <input type="radio" name="my-accordion-3" checked="checked" /> 
+            <div class="collapse-title text-xl font-medium">Private Lessons
+            </div>
+            <div class="collapse-content"> 
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+            </div>
+          </div>
+          </div>
+
+          <!-- 4th -->
+          <div class="border-t-2 border-b">           
+          <div class="collapse collapse-plus pt-1 pb-1">
+            <input type="radio" name="my-accordion-3" checked="checked" /> 
+            <div class="collapse-title text-xl font-medium">Ski Touring
+            </div>
+            <div class="collapse-content"> 
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+            </div>
+          </div>
+          </div>
+
+          <!-- 5th -->
+          <div class="border-t-2 border-b">          
+          <div class="collapse collapse-plus pt-1 pb-">
+            <input type="radio" name="my-accordion-3" /> 
+            <div class="collapse-title text-xl font-medium">Booking
+            </div>
+            <div class="collapse-content"> 
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+            </div>
+          </div>
+          </div>
+
+          <!-- 6th -->
+            <div class="collapse collapse-plus pt-1 pb-1">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">Pricings
+              </div>
+              <div class="collapse-content"> 
+                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+              </div>
+            </div>
+
+        </div>
+      </div>
+      <div>
+
+      </div>
+
+    </div>
+
+    <!-- start -->
+    <div>
+      <div class="bg-[#FFF] border-t-2 mt-24 border-dotted items-center text-center ">
+        <h2 class="sm:text-4xl text-xl text mt-8">Professional Hockeys Club</h2>
+        <p class="sm:text-[16px] text-[14px] text-[#13131899] mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+    </div>
+    <!-- start -->
+    <div>
+
+    </div>
+    </div>
+
+
+
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
